@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fred6319/public_html/
+    - /bin/cp -a /home/fred6319/repositories/FrederickPeasehub.io/ $DEPLOYPATH
